@@ -3,11 +3,13 @@ B = str(input("Kies nog een heel getal "))
 
 
 if A > B:
-    max = B
-    print("A is het grootste getal met een waarden met " + max )
+    Max = B
+    print("A is het grootste getal met een waarden met " + Max)
 elif A < B:
-    min = A
-    print("A is het kleinste getal met een waarden van " + min )
+    Min = A
+    print("A is het kleinste getal met een waarden van " + Min)
 elif A == B:
     print("A en B zijn even groot ")
     
+print("Het maximum is " + B)
+print("Het minimum is " + A)
